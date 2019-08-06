@@ -1,3 +1,4 @@
+include "IsPeFile.yara"
 
 rule hawkeye {
     // File 6597A865EBE0D0F6D34B30B32814F79D

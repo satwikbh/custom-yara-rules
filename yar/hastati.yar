@@ -16,7 +16,7 @@ $str11 = "taskkill /F /IM clisvc.exe" nocase ascii wide
 
 $str2  = "taskkill /F /IM pasvc.exe" nocase ascii wide
 
-$str3  = "shutdown -r -t 0″ nocase ascii wide
+$str3  = "shutdown -r -t 0" nocase ascii wide
 
 condition:
 

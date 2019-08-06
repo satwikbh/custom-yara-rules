@@ -1,3 +1,6 @@
+include "IsElfFile.yara"
+include "IsPeFile.yara"
+
 rule ggupdate_windows {
     meta:
         description = "ggupdate.exe keylogger (Windows)"

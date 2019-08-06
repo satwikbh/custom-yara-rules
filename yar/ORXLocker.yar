@@ -1,9 +1,9 @@
 rule ORXLocker
 {
 meta:
-	author = “SenseCy”
-	date = “30/08/15”
-	description = “ORXLocker_yara_rule”
+	author = "SenseCy"
+	date = "30/08/15"
+	description = "ORXLocker_yara_rule"
 	reference = "https://blog.sensecy.com/2016/03/10/handling-a-ransomware-attack/"
 
 strings:
@@ -15,8 +15,8 @@ strings:
 	$string5 = {43 3a 5c 44 65 76 5c 46 69 6e 61 6c 5c 52 65 6c 65 61 73 65 5c 6d 61 69 6e 2e 70 64 62}
 	$string6 = {2e 3f 41 56 3f 24 62 61 73 69 63 5f 6f 66 73 74 72 65 61 6d 40 44 55 3f 24 63 68 61 72 5f 74 72 61 69 74 73 40 44 40 73 74 64 40 40 40 73 74 64 40 40}
 	$string7 = {2e 3f 41 56 3f 24 62 61 73 69 63 5f 69 6f 73 40 5f 57 55 3f 24 63 68 61 72 5f 74 72 61 69 74 73 40 5f 57 40 73 74 64 40 40 40 73 74 64 40 40}
-	$string8 = “ttp://4rhfxsrzmzilheyj.onion/get.php?a=” wide
-	$string9 = “\\Payment-Instructions.htm” wide
+	$string8 = "http://4rhfxsrzmzilheyj.onion/get.php?a=" wide
+	$string9 = "\\Payment-Instructions.htm" wide
 
 condition:
 	all of them

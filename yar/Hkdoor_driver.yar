@@ -1,3 +1,5 @@
+import "pe"
+
 rule hkdoor_driver {
     meta:
         author = "Cylance"

@@ -74,40 +74,6 @@ rule LURK0 : Family LURK0 {
 
 }
 
-private rule SharedStrings : Family {
-	meta:
-		description = "Internal names found in LURK0/CCTV0 samples"
-		author = "Katie Kleemola"
-		last_updated = "07-22-2014"
-	
-	strings:
-		// internal names
-		$i1 = "Butterfly.dll"
-		$i2 = /\\BT[0-9.]+\\ButterFlyDLL\\/
-		$i3 = "ETClientDLL"
-
-		// dbx
-		$d1 = "\\DbxUpdateET\\" wide
-		$d2 = "\\DbxUpdateBT\\" wide
-		$d3 = "\\DbxUpdate\\" wide
-		
-		// other folders
-		$mc1 = "\\Micet\\"
-
-		// embedded file names
-		$n1 = "IconCacheEt.dat" wide
-		$n2 = "IconConfigEt.dat" wide
-
-		$m1 = "\x00\x00ERXXXXXXX\x00\x00" wide
-		$m2 = "\x00\x00111\x00\x00" wide
-		$m3 = "\x00\x00ETUN\x00\x00" wide
-		$m4 = "\x00\x00ER\x00\x00" wide
-
-	condition:
-		any of them //todo: finetune this
-
-}
-
 rule CCTV0 : Family CCTV0 {
 
 	meta:

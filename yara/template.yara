@@ -1,3 +1,4 @@
+include "IsPeFile.yara"
 
 rule signature_name {
     meta:

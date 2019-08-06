@@ -1,5 +1,5 @@
 //More at reversecodes.wordpress.com
-rule DMALocker4.0
+rule DMALocker4_0
 {
     meta:
     Description = "Deteccion del ransomware DMA Locker version 4.0"

@@ -1,4 +1,4 @@
-include "../../MachO.yara"
+include "MachO.yara"
 
 rule hacktool_macos_macpmem
 {

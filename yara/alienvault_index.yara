@@ -1804,9 +1804,9 @@ rule Hangover2_Keylogger
 
     $a = "iconfall" wide ascii
 
-    $b = "/c ipconfig /all > "" wide ascii
+    $b = "/c ipconfig /all > " wide ascii
 
-    $c = "Global\{CHKAJESKRB9-35NA7-94Y436G37KGT}" wide ascii
+    $c = "Global\\{CHKAJESKRB9-35NA7-94Y436G37KGT}" wide ascii
 
   condition:
 

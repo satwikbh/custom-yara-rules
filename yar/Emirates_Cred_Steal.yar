@@ -1,5 +1,4 @@
-rule EmiratesStatement :
-{
+rule EmiratesStatement {
     meta:
         Author      = "Christiaan Beek"
         Date        = "2013-06-30"

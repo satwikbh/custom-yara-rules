@@ -3,6 +3,8 @@
     long as you use it under this license.
 */
 
+include "is__elf.yar"
+
 rule ELF_Linux_Torte : Linux ELF
 
 {

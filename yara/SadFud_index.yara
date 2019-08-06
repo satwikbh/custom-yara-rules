@@ -17,7 +17,7 @@ rule DMALocker
     
 }
 //More at reversecodes.wordpress.com
-rule DMALocker4.0
+rule DMALocker4_0
 {
     meta:
     Description = "Deteccion del ransomware DMA Locker version 4.0"
@@ -55,7 +55,7 @@ rule Ripper_ATM
     Author = "SadFud"
     Date = "02/09/2016"
     Hash = "cc85e8ca86c787a1c031e67242e23f4ef503840739f9cdc7e18a48e4a6773b38"
-    VT Scan = "https://www.virustotal.com/es/file/cc85e8ca86c787a1c031e67242e23f4ef503840739f9cdc7e18a48e4a6773b38/analysis/"
+    VT_Scan = "https://www.virustotal.com/es/file/cc85e8ca86c787a1c031e67242e23f4ef503840739f9cdc7e18a48e4a6773b38/analysis/"
     
     strings:
     $a = { 6b 65 72 6e 79 76 40 6a 61 62 62 69 6d 2e 63 6f 6d }
@@ -65,7 +65,7 @@ rule Ripper_ATM
     $a 
     
 }
-rule: Satana_Ransomware
+rule Satana_Ransomware
 {
 	 meta:
     Description = "Deteccion de ransomware Satana"
@@ -73,12 +73,13 @@ rule: Satana_Ransomware
     Date = "12/07/2016"
 	
 	strings:
-	$satana = { !satana! } nocase
+	$satana = "!satana!" nocase
 	
 	condition:
 	$satana
 }
-rule Malware.Gen.Vbs.Obfuscated
+
+rule Malware_Gen_Vbs_Obfuscated
 {
     meta:
     Description = "Deteccion de archivos visual basic script ofuscados"

@@ -19,6 +19,8 @@ rule visual_basic_5_6 : Compiler
 }
 */
 
+import "pe"
+
 rule visual_studio_net : Compiler
 {
 	meta:

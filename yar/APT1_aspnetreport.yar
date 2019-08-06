@@ -1,3 +1,5 @@
+include "APT1_payloads.yar"
+
 rule APT1_aspnetreport
 {
     meta:

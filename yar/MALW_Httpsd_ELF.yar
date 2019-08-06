@@ -3,6 +3,8 @@
     and  open to any user or organization, as long as you use it under this license.
 */
 
+include "is__elf.yar"
+
 private rule is__LinuxHttpsdStrings {
 
     meta:

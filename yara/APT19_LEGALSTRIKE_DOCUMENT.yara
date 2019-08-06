@@ -4,7 +4,7 @@ rule FE_LEGALSTRIKE_MACRO {
        author="Ian.Ahl@fireeye.com @TekDefense"
        date="2017-06-02"
        description="This rule is designed to identify macros with the specific encoding used in the sample 30f149479c02b741e897cdb9ecd22da7."
-       reference: https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html
+       reference = "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
 strings:
        // OBSFUCATION
        $ob1 = "ChrW(114) & ChrW(101) & ChrW(103) & ChrW(115) & ChrW(118) & ChrW(114) & ChrW(51) & ChrW(50) & ChrW(46) & ChrW(101)" ascii wide
@@ -41,7 +41,7 @@ rule FE_LEGALSTRIKE_MACRO_2 {
        author="Ian.Ahl@fireeye.com @TekDefense"
        date="2017-06-02"
        description="This rule was written to hit on specific variables and powershell command fragments as seen in the macro found in the XLSX file3a1dca21bfe72368f2dd46eb4d9b48c4."
-       reference: https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html
+       reference = "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
 strings:
        // Setting the environment
        $env1 = "Arch = Environ(\"PROCESSOR_ARCHITECTURE\")" ascii wide
@@ -79,7 +79,7 @@ rule FE_LEGALSTRIKE_RTF {
         author="joshua.kim@FireEye.com"
         date="2017-06-02"
         description="Rtf Phishing Campaign leveraging the CVE 2017-0199 exploit, to point to the domain 2bunnyDOTcom"
-        reference: https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html
+        reference = "https://www.fireeye.com/blog/threat-research/2017/06/phished-at-the-request-of-counsel.html"
 
     strings:
         $header = "{\\rt"

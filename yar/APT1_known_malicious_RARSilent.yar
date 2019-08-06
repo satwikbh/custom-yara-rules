@@ -1,3 +1,5 @@
+include "APT1_RARSilent_EXE_PDF.yar"
+
 rule APT1_known_malicious_RARSilent
 {
     meta:

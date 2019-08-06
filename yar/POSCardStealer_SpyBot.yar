@@ -12,11 +12,11 @@ rule POSCardStealer_SpyBot {
                 $s3 = "data_%d_%d_%d_%d_%d.txt"
 
                 $x1 = "BladeLogic"
-                $x1 = "cmd /c net start %s"
                 $x2 = "ftp -s:%s"
                 $x3 = "PATH: %s"
                 $x4 = "cmd.txt"
                 $x6 = "COMMAND: %s"
+                $x7 = "cmd /c net start %s"
 
         condition:
                 1 of ($s*) or 4 of ($x*)

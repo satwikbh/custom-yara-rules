@@ -7,7 +7,7 @@
 	Rules that are included in several other files.
 */
 
-private rule is__elf {
+rule is__elf {
 	meta:
 		author = "@mmorenog,@yararules"
 	strings:

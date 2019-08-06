@@ -3,7 +3,7 @@ meta:
   Author = "Insikt Group, Recorded Future"
   TLP = "White"
   Date = "2018-09-22"
-  Description ="Rule to identify spearphish sent by Chinese threat actor TEMP.Periscope during July 2018 campaign” 
+  Description ="Rule to identify spearphish sent by Chinese threat actor TEMP.Periscope during July 2018 campaign"
 strings:
   $eml_1="From:"
   $eml_2="To:"

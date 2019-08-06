@@ -1,12 +1,12 @@
-rule: Satana_Ransomware
+rule Satana_Ransomware
 {
-	 meta:
+	meta:
     Description = "Deteccion de ransomware Satana"
     Author = "SadFud"
     Date = "12/07/2016"
 	
 	strings:
-	$satana = { !satana! } nocase
+	$satana = "!satana!" nocase
 	
 	condition:
 	$satana

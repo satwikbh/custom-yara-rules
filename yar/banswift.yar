@@ -1,6 +1,6 @@
 rule banswift :banswift {
 meta:
-description = “Yara rule to detect samples that share wiping function with banswift”
+description = "Yara rule to detect samples that share wiping function with banswift"
 threat_level = 10
 reference = "https://www.blueliv.com/research/recap-of-cyber-attacks-targeting-swift/"
 strings:

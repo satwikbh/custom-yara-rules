@@ -305,7 +305,7 @@ rule viotto_keylogger
 meta:
   author = "Paul B. (@hexlax) PhishMe Research"
   description = "Matches unpacked Viotto Keylogger samples"
-  details "http://phishme.com/viotto-keylogger"
+  details = "http://phishme.com/viotto-keylogger"
 
 strings:
   $hdr = "MZ"

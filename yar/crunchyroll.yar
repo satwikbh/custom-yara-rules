@@ -6,7 +6,7 @@ f5ca8d230ca3c71eb0bf96dbec5d9b8aea455486345ccf043329fa85b703fc28/subfile
 eae53d89d7add187dfe6f4498c99144d7650c37a99792e0e40035d83f73cfb02
 */
 
-rule CrunchyRoll_11/4/17{
+rule CrunchyRoll_11_4_17{
 
 meta:
 	author = "@X0RC1SM"

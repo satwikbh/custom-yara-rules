@@ -1,3 +1,4 @@
+include "IsPeFile.yara"
 
 rule virtualbox_detection {
     strings:

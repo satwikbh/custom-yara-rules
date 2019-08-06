@@ -3,6 +3,8 @@
    and  open to any user or organization, as long as you use it under this license.
 */
 
+include "is__elf.yar"
+
 private rule is__str_Rebirth_gen3 {
 	meta:
 		description = "Generic detection for Vulcan branch Rebirth or Katrina from Torlus nextgen"

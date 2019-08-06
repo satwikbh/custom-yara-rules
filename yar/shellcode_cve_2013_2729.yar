@@ -9,8 +9,7 @@ meta:
         link1 = "http://www.binamuse.com/papers/XFABMPReport.pdf"
         link2 = "https://github.com/feliam/CVE-2013-2729/blob/master/XFABMPExploit.py"
         link3 = "https://github.com/feliam/CVE-2013-2729/blob/master/E10.1.4.pdf "
-        link4 = "https://www.securityartwork.es/2014/09/30/pdf-deconstruido-al-
-                 aroma-de-shellcode-i/"
+        link4 = "https://www.securityartwork.es/2014/09/30/pdf-deconstruido-al-aroma-de-shellcode-i/"
         md5test =  "eb9228f17568704676385428d3bbefff"
 strings:
         $xfa1 = "XFA 1 0 R"

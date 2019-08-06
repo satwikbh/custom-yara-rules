@@ -8,6 +8,8 @@
     Version 1-20180211, author:unixfreaxjp
 */
 
+include "is__elf.yar"
+
 private rule is__osx
 {
  meta:

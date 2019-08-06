@@ -1,4 +1,4 @@
-{
+rule blackhole2_htm4{
 meta:
 	author = "Josh Berry"
 	date = "2016-06-27"

@@ -1,3 +1,5 @@
+include "IsElfFile.yara"
+
 
 rule libgcc_backdoor {
     strings:

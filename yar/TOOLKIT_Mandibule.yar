@@ -10,6 +10,8 @@
    		and  open to any user or organization, as long as you use it under this license.
 */
 
+include "is__elf.yar"
+
 private rule is__str_mandibule_gen1 {
 	meta:
 		author = "unixfreaxjp"

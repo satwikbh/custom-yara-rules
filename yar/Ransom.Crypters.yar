@@ -1,3 +1,5 @@
+import "pe"
+
 rule RansomCryptoApp_A
 {
 	meta:

@@ -1,3 +1,5 @@
+import "pe"
+
 rule sav_dropper
 {
 	meta:

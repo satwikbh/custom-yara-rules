@@ -1,4 +1,4 @@
-rivate rule APT1_payloads
+private rule APT1_payloads
 {
     meta:
         author = "AlienVault Labs"

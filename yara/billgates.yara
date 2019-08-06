@@ -1,3 +1,4 @@
+include "IsElfFile.yara"
 
 rule billgates {
     strings:

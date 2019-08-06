@@ -21,7 +21,7 @@ $c3 = "/usr/local/bin/socat"
 
 $c4 = "killall Safari"
 
-& $c5 = "killall "Google Chrome""
+$c5 = "killall \"Google Chrome\""
 
 $c6 = "killall firefox"
 

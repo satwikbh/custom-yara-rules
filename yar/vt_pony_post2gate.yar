@@ -1,3 +1,5 @@
+import "cuckoo"
+
 rule Pony_gate_php_POST
 {
     meta:

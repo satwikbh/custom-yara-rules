@@ -1,4 +1,4 @@
-{
+rule APT34_PDB_path{
   meta:
     author = "Booz Allen Hamilton"
     reference = "https://www.boozallen.com/s/insight/blog/dark-labs-discovers-apt34-malware-variants.html"

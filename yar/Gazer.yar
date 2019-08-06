@@ -1,14 +1,15 @@
-import “pe”
-import “math”
-import “hash”
+import "pe"
+import "math"
+import "hash"
+
 rule Gazer_certificate_subject {
  meta:
  	author = "ESET"
   reference = "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf"
  condition:
  for any i in (0..pe.number_of_signatures - 1):
- (pe.signatures[i].subject contains “Solid Loop” or
-pe.signatures[i].subject contains “Ultimate Computer Support”)
+ (pe.signatures[i].subject contains "Solid Loop" or
+pe.signatures[i].subject contains "Ultimate Computer Support")
 }
 
 rule Gazer_certificate
@@ -29,13 +30,9 @@ rule Gazer_logfile_name
  	author = "ESET"
   reference = "https://www.welivesecurity.com/wp-content/uploads/2017/08/eset-gazer.pdf"
  strings:
- 	$s1 = “CVRG72B5.tmp.cvr”
- 	$s2 = “CVRG1A6B.tmp.cvr”
- 	$s3 = “CVRG38D9.tmp.cvr”
+ 	$s1 = "CVRG72B5.tmp.cvr"
+ 	$s2 = "CVRG1A6B.tmp.cvr"
+ 	$s3 = "CVRG38D9.tmp.cvr"
  condition:
  (uint16(0) == 0x5a4d) and 1 of them
 }
-
-
-
-

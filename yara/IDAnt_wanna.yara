@@ -4,7 +4,7 @@ rule IDAnt_wanna : antidissemble antianalysis
 {
 	meta:
 		author = "Tim 'diff' Strazzere <diff@sentinelone.com><strazz@gmail.com>"
-		reference = "https://sentinelone.com/blogs/breaking-and-evading/"\
+		reference = "https://sentinelone.com/blogs/breaking-and-evading/"
 		filetype = "elf"
 		description = "Detect a misalligned program header which causes some analysis engines to fail"
 		version = "1.0"

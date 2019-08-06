@@ -26585,10 +26585,6 @@ rule PEiD_02421_UPX_Inliner_v1_0_by_GPcH_
         $a
 }
 
-
-
-------
-
 rule PEiD_02422_UPX_Modified_Stub_b____Farb_rausch_Consumer_Consulting_
 {
     meta:

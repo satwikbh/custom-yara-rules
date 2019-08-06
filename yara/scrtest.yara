@@ -1,3 +1,4 @@
+include "IsPeFile.yara"
 
 rule scrtest_dropper {
     strings:

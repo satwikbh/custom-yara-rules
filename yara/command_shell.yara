@@ -1,3 +1,4 @@
+include "IsPeFile.yara"
 
 rule command_shell {
     meta:

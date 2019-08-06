@@ -28,7 +28,7 @@ strings:
   $str_systeminf_05 = "</autostart>"
   $str_systeminf_06 = "</moduleconfig>"
 condition:
-all of ($str_ systeminf_*)
+all of ($str_systeminf_*)
 }
 
 rule MALW_dllinject_trickbot_module : Trojan
@@ -43,7 +43,7 @@ strings:
   $str_dllinj_03 = "<require_header>"
   $str_dllinj_04 = "</dinj>"
 condition:
-  all of ($str_ dllinj_*)
+  all of ($str_dllinj_*)
 }
 
 rule MALW_mailsercher_trickbot_module : Trojan

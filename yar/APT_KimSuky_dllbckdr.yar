@@ -1,4 +1,4 @@
-mport "pe"
+import "pe"
 
 rule APT_KimSuky_bckdr_dll {
    meta:

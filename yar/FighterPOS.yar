@@ -57,7 +57,7 @@ condition:
   (all of ($string*)) and (any of ($users*)) and PoS_Malware_ActiveComponent
 }
 
-rule PoS_Malware_ TSPY_POSFIGHT.F: FighterPOS
+rule PoS_Malware_TSPY_POSFIGHT_F : FighterPOS
 {
 meta:
   author = "Trend Micro, Inc"

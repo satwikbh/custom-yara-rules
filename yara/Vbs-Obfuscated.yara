@@ -1,4 +1,4 @@
-rule Malware.Gen.Vbs.Obfuscated
+rule Malware_Gen_Vbs_Obfuscated
 {
     meta:
     Description = "Deteccion de archivos visual basic script ofuscados"

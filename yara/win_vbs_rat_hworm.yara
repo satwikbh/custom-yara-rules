@@ -1,6 +1,4 @@
-rule win_vbs_rat_hworm
-
-{
+rule win_vbs_rat_hworm{
     meta:
         author = "Fidelis Cybersecurity"
         reference = "http://www.threatgeek.com/2016/11/down-the-h-w0rm-hole-with-houdinis-rat.html"
@@ -126,3 +124,4 @@ rule win_exe_rat_hworm
 
                 (uint16(0) == 0x5A4D) and (all of them)
 
+}
