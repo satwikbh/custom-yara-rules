@@ -1,8 +1,8 @@
 
 // utility rules
-include "utility/IsPeFile.yara"
-include "utility/IsElfFile.yara"
-include "utility/IsZipFile.yara"
+include "IsPeFile.yara"
+include "IsElfFile.yara"
+include "IsZipFile.yara"
 
 // family or campaign specific signatures
 include "alphacrypt.yara"
@@ -24,13 +24,13 @@ include "viewweb.yara"
 include "wiper.yara"
 
 // packer-related signatures
-include "packers/aspack.yara"
-include "packers/nkh.yara"
-include "packers/rlpack.yara"
-include "packers/sogu_packer.yara"
-include "packers/upx.yara"
-include "packers/vmprotect.yara"
+include "aspack.yara"
+include "nkh.yara"
+include "rlpack.yara"
+include "sogu_packer.yara"
+include "upx.yara"
+include "vmprotect.yara"
 
 // feature identification signatures
-include "features/command_shell.yara"
-include "features/virtualbox_detection.yara"
+include "command_shell.yara"
+include "virtualbox_detection.yara"

@@ -7,14 +7,14 @@
 	Rules that are included in several other files.
 */
 
-rule is__elf {
+/*private rule is__elf {
 	meta:
 		author = "@mmorenog,@yararules"
 	strings:
 		$header = { 7F 45 4C 46 }
 	condition:
 		$header at 0
-}
+}*/
 
 
 rule is__Mirai_gen7 {

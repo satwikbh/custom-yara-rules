@@ -1,70 +1,68 @@
-ANDROGAURD SHIT
-
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Libyan_Scorpions.yar(30): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Libyan_Scorpions.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeBank_Fanta.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeBank_Fanta.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Switcher.yar(34): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Switcher.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Tinhvan.yar(22): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Tinhvan.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Metasploit_Payload.yar(17): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Metasploit_Payload.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyNote.yar(29): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyNote.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_SMSsender.yar(97): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_SMSsender.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS.yar(27): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Godless.yar(34): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Godless.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeApps.yar(101): invalid field name "app_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeApps.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Polish_Bankbot.yar(34): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Polish_Bankbot.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Towelroot.yar(22): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Towelroot.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_banker.yar(41): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_banker.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_AliPay_smsStealer.yar(29): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_AliPay_smsStealer.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_OmniRat.yar(14): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/Android_OmniRat.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_sk_bankTr.yar(29): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_sk_bankTr.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor_script.yar(24): invalid field name "receiver" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor_script.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_DeathRing.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_DeathRing.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Tordow.yar(21): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Tordow.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Copy9.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Copy9.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_SandroRat.yar(13): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/Android_SandroRat.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Spywaller.yar(27): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Spywaller.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot_z.yar(31): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot_z.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_BatteryBot_ClickFraud.yar(22): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/Android_BatteryBot_ClickFraud.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_ChinesePorn.yar(68): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_ChinesePorn.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dectus_rswm.yar(27): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Dectus_rswm.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Clicker_G.yar(13): invalid field name "receiver" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Clicker_G.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid_RAT.yar(60): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid_RAT.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Overlayer.yar(24): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Overlayer.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_MalwareCertificates.yar(20): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_MalwareCertificates.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor.yar(22): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_AndroRat.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_AndroRat.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Acecard.yar(22): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Acecard.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dogspectus.yar(12): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Dogspectus.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS_Variant.yar(27): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS_Variant.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_HackingTeam.yar(36): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_HackingTeam.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyAgent.yar(30): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyAgent.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_Advertising.yar(21): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_Advertising.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_ASSDdeveloper.yar(22): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Android_ASSDdeveloper.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_VirusPolicia.yar(37): invalid field name "app_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_VirusPolicia.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Marcher.yar(12): invalid field name "filter" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Marcher.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot.yar(12): invalid field name "filter" /home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Trojan_Droidjack.yar(18): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Trojan_Droidjack.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Pink_Locker.yar(28): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Pink_Locker.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/SMSsender.yar(97): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/SMSsender.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/malware_Advertising.yar(21): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/malware_Advertising.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_BadMirror.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_BadMirror.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Amtrckr_20160519.yar(617): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Amtrckr_20160519.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/exploit.yar(1): unknown module "androguard" /home/prasanth/Satwik/custom-yara-rules/yar/exploit.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/banker.yar(67): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/banker.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_pornClicker.yar(25): invalid field name "url" /home/prasanth/Satwik/custom-yara-rules/yar/Android_pornClicker.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/ASSDdeveloper.yar(22): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/ASSDdeveloper.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/HackingTeam.yar(36): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/HackingTeam.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/MalwareCertificates.yar(20): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/MalwareCertificates.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Tinhvan.yar(22): invalid field name "certificate" /home/prasanth/Satwik/custom-yara-rules/yar/Tinhvan.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_RuMMS.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_RuMMS.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Sberbank.yar(12): invalid field name "service" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Sberbank.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/crisis.yar(15): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/crisis.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Polish_Bankbot_mobile.yar(36): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/Polish_Bankbot_mobile.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_Triada_Banking.yar(26): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/Android_Triada_Banking.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/zitmo.yar(20): invalid field name "permission" /home/prasanth/Satwik/custom-yara-rules/yar/zitmo.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/Android_VikingOrder.yar(5): unknown module "androguard" /home/prasanth/Satwik/custom-yara-rules/yar/Android_VikingOrder.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/malware_banker.yar(41): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/malware_banker.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/BatteryBot_ClickFraud.yar(22): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/BatteryBot_ClickFraud.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/SandroRat.yar(12): invalid field name "activity" /home/prasanth/Satwik/custom-yara-rules/yar/SandroRat.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/ChinesePorn.yar(68): invalid field name "package_name" /home/prasanth/Satwik/custom-yara-rules/yar/ChinesePorn.yar
-/home/prasanth/Satwik/custom-yara-rules/yar/FakeApps.yar(101): invalid field name "app_name" /home/prasanth/Satwik/custom-yara-rules/yar/FakeApps.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Libyan_Scorpions.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyAgent.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_Advertising.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Pink_Locker.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/malware_Advertising.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Amtrckr_20160519.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_pornClicker.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Backdoor_script.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Clicker_G.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Marcher.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/exploit.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_VikingOrder.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeBank_Fanta.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Godless.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_DeathRing.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Copy9.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dendroid_RAT.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_AndroRat.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_AVITOMMS_Variant.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_BadMirror.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_RuMMS.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Sberbank.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_FakeApps.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_VirusPolicia.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/FakeApps.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Metasploit_Payload.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_SpyNote.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_banker.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_sk_bankTr.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Tordow.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_ChinesePorn.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dectus_rswm.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Banker_Acecard.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Trojan_Droidjack.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/malware_banker.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/ChinesePorn.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Switcher.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Tinhvan.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_SMSsender.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Malware_Towelroot.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_AliPay_smsStealer.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Spywaller.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_MazarBot_z.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Overlayer.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_MalwareCertificates.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_malware_HackingTeam.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_ASSDdeveloper.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/SMSsender.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/ASSDdeveloper.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/HackingTeam.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/MalwareCertificates.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Tinhvan.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Polish_Bankbot.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/banker.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/crisis.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Polish_Bankbot_mobile.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Triada_Banking.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/zitmo.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_OmniRat.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_SandroRat.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_BatteryBot_ClickFraud.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/Android_Dogspectus.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/BatteryBot_ClickFraud.yar
+/home/prasanth/Satwik/custom-yara-rules/yar/SandroRat.yar
